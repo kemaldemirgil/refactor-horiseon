@@ -41,7 +41,8 @@ Many websites these days are developed with accessibility barriers making it alm
 
 ### Webpage:
 ![`Horiseon`](assets/new_screenshot_Horiseon.jpg)
+
 ### License:
 
 Copyright © Kemal Demirgil. All rights reserved.
-Licensed under the [MIT](https://github.com) license.
+Licensed under the [MIT](https://github.com/kemaldemirgil/refracting_horiseon/horiseon/LICENSE.txt) license.
