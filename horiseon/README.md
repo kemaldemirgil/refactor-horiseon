@@ -21,7 +21,7 @@
 
 ### Description:
 
-This week's assignment is focused on increasing the accessibility of the `Horiseon` webpage ![`Horiseon`](assets/old_screenshot_Horiseon.jpg) , so it's optimized for all users and search engines.
+This week's assignment is focused on increasing the accessibility of the `Horiseon` webpage , so it's optimized for all users and search engines.
 Increasing the accessibility of a webpage allows browsers and search engines to read the content easier & faster, it also allows any other users with disabilities to use the website, making it benefit individuals, businesses, and society.
 
 ### Notes:
@@ -39,6 +39,8 @@ Many websites these days are developed with accessibility barriers making it alm
 * Grouped the sections of elements for efficient code,
 * Provided clean layout of the code for future usage.
 
+### Webpage:
+![`Horiseon`](assets/new_screenshot_Horiseon.jpg)
 ### License:
 
 Copyright © Kemal Demirgil. All rights reserved.
