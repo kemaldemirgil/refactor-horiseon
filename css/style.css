@@ -1,0 +1,217 @@
+
+/*////////////////////////////////////DOCUMENT//////////////////////////////////////////////////////////////////////////////*/
+
+/* Applies universal box-sizing, resets paddings and margins to zero for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Sets background color for the body of the page */
+body {
+    background-color: #d9dcd6;
+}
+/* Sets tab texts font color and removes any styling from the text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Sets font size for paragraphs */
+p {
+    font-size: 16px;
+}
+
+/*////////////////////////////////////HEADER////////////////////////////////////////////////////////////////////////////////*/
+
+/* Adds padding an all sides, sets the font for the "Horiseon" header, background color and the color for the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Displays the header in a horizontally aligned block format and sets the font size for the Horiseon header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Sets "Horiseon", "seo" letters font color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Adds padding to the top and margin to the bottom, displays the content on the right side, sets the font and font size for the tabs on the header */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Removes the markers for the header tab list */
+.header div ul {
+    list-style-type: none;
+}
+/* Displays the tabs in a horizontally aligned block format and adds margin to the left */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*////////////////////////////////////MAIN-CONTENT//////////////////////////////////////////////////////////////////////////*/
+
+/* Sets the height and width for the background image of the Main section, adds margins to the bottom, adds an image as a background, resizes the background image to cover the entire section, centers the image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Sets the image focus towards left; text on the right, adds margin between image and text */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Sets the image focus towards right; text on the left, adds margin between image and text */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Sets width, displays the content in a horizontally aligned block format and adds margin to the left of the main content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Adds margin to the bottom of the first tab in the main content, adds padding all over and sets the height of the tab, sets the font, background color and font color of the tab */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Adds margin to the bottom of the second tab in the main content, adds padding all over and sets the height of the tab, sets the font, background color and font color of the tab */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Adds margin to the bottom of the third tab in the main content, adds padding all over and sets the height of the tab, sets the font, background color and font color of the tab */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Sets the height of the image on the first tab */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Sets the height of the image on the second tab */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Sets the height of the image on the third tab */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Adds margin to the bottom of the first tab header and sets the font size */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Adds margin to the bottom of the second tab header and sets the font size */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Adds margin to the bottom of the third tab header and sets the font size */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*////////////////////////////////////SIDE-CONTENT//////////////////////////////////////////////////////////////////////////*/
+
+/* Adds margins to the right and top, adds padding all around the side content, disables floating elements on either left or right side, sets width and height, sets the font and background color for the side content */
+.benefits {
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #005081;
+}
+/* Adds margin to the bottom of the first element in the side content, sets the font color */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adds margin to the bottom of the second element in the side content, sets the font color */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adds margin to the bottom of the third element in the side content, sets the font color */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adds margin to the bottom of the header of the first element in the side content, centers the header */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Adds margin to the bottom of the header of the second element in the side content, centers the header */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Adds margin to the bottom of the header of the third element in the side content, centers the header */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Displays the side content first element picture in a seperate line, adds margin all around the image and lets the browser calculate it, sets the width of the image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Displays the side content second element picture in a seperate line, adds margin all around the image and lets the browser calculate it, sets the width of the image */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Displays the side content third element picture in a seperate line, adds margin all around the image and lets the browser calculate it, sets the width of the image */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////////////////////*/
+
+/* Adds padding all over the footer section, disables floating elements on either left or right side, sets the font and centers the text */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Sets the footer header font size */
+.footer h2 {
+    font-size: 20px;
+}
