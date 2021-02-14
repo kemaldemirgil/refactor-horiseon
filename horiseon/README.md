@@ -17,7 +17,7 @@
     - social-media-marketing.jpg
   - index.html
   - README
-  - LICENSE.txt
+  - LICENSE
 
 ### Description:
 
