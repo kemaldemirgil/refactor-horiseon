@@ -1,3 +1,9 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/kemaldemirgil/refactor-horiseon?color=ff66cc&logo=Github)
+![GitHub](https://img.shields.io/github/license/kemaldemirgil/refactor-horiseon?color=%2366ff33&logo=Github)
+![Website](https://img.shields.io/website?down_color=%23ff3300&down_message=Offline&logo=Github&up_color=%2300cc00&up_message=Online&url=https%3A%2F%2Fkemaldemirgil.github.io%2Frefactor-horiseon)
+![GitHub repo size](https://img.shields.io/github/repo-size/kemaldemirgil/refactor-horiseon?logo=Github)
+![GitHub top language](https://img.shields.io/github/languages/top/kemaldemirgil/refactor-horiseon?color=%23ff9900)
+![GitHub language count](https://img.shields.io/github/languages/count/kemaldemirgil/refactor-horiseon?color=%23996633)
 ## Refactoring Horiseon Webpage
 
 ### Files & Directories:
