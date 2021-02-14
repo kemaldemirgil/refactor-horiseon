@@ -1,4 +1,4 @@
-## Refracting Horiseon Webpage
+## Refactoring Horiseon Webpage
 
 ### Files & Directories:
 * horiseon
@@ -45,4 +45,4 @@ Many websites these days are developed with accessibility barriers making it alm
 ### License:
 
 Copyright © Kemal Demirgil. All rights reserved.
-Licensed under the [MIT](https://github.com/kemaldemirgil/refracting_horiseon/blob/main/horiseon/LICENSE) license.
+Licensed under the [MIT](https://github.com/kemaldemirgil/refactor-horiseon/blob/main/horiseon/LICENSE) license.
