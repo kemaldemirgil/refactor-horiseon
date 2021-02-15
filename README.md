@@ -7,7 +7,7 @@
 ## Refactoring Horiseon Webpage
 
 ### Files & Directories:
-* horiseon
+* refactor-horiseon
   - assets
     - new_screenshot_Horiseon.jpg
     - old_screenshot_Horiseon.jpg
