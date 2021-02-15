@@ -39,7 +39,7 @@ Many websites these days are developed with accessibility barriers making it alm
 1. Changed the title to **Horiseon** instead of **website**,
 2. Changed side content **background color** for better contrast,
 3. Added **alternate text** for images if they break down.
-4. Added id attribute for search-engine-optimization.
+4. Added **id attribute** for search-engine-optimization.
 
 ### Usage:
 * Added comments to `index.html` and `style.css` files,
